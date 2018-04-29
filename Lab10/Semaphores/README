@@ -1,0 +1,32 @@
+The folllowing lines show an example to compile and run your program. 
+You need to use proper program names to replace the input and output file names in the example.
+
+Compilation:
+$gcc mpmc_sem.c -o mpmc -pthread
+
+Run:
+$ ./mpmc 20 5 9
+Note: 
+The first argument 20 is the buffer size
+The second argument 5 is the number of producers
+The third arguement 9 is the number of consumers
+The number of producers or consumers should be less than or equal to CMAX in the program.
+
+Output:
+$./mpmc 20 5 9
+Producer 4 fills 63
+Consumer 5 removes 63
+Producer 1 fills 26
+Consumer 5 removes 26
+Producer 1 fills 11
+Consumer 4 removes 11
+Producer 1 fills 29
+Consumer 1 removes 29
+Producer 3 fills 62
+Consumer 8 removes 62
+^C Stopping...
+Producer 4 fills 35
+Producer 4 fills -1
+Producer 4 fills -1
+Producer 4 fills -1
+Producer 4 fills -1
