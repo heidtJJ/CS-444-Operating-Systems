@@ -1,5 +1,6 @@
 # CS-444-Operating-Systems
-Lab Assignments from my CS-444 Operating Systems class. The xv6 operating system was used throughout this class. Each lab folder contains the assignment.
+Lab Assignments from my CS-444 Operating Systems class. The xv6 operating system was used throughout this class.
+<br>Each lab folder contains the corresponding assignment.
 
 Lab 2: Process API (Fork a process)<br>
 Lab 3: Make a system call<br>
